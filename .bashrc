@@ -53,7 +53,7 @@ fi
 
 # Git Branch Completion
 # https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-source ~/documents/dotfiles/.git-completion.bash
+#source ~/documents/dotfiles/.git-completion.bash
 
 # Git Repo Status Information
 # https://github.com/magicmonty/bash-git-prompt
