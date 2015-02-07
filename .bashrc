@@ -55,6 +55,9 @@ fi
 # https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 source $HOME/.git-completion.bash
 
+# NVM
+source $HOME/.nvm/nvm.sh
+
 # Git Repo Status Information
 # https://github.com/magicmonty/bash-git-prompt
 # To Install: brew install bash-git-prompt
