@@ -26,25 +26,21 @@ export EDITOR="vim"
 # ALIASES #
 ###########
 
-# Personal
+# List All Files
 alias ll='ls -al';
 
+# Show/Hide All Files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES;
 killall Finder /System/Library/CoreServices/Finder.app'
 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO;
 killall Finder /System/Library/CoreServices/Finder.app'
 
+# Open In iA Writer
+alias ia="open $1 -a /Applications/iA\ Writer.app"
+
 # Resumator
 [ -f "$HOME/.res-vm-aliases" ] && source $HOME/.res-vm-aliases
-
-# Use Git’s Colored Diff When Available
-hash git &>/dev/null
-if [ $? -eq 0 ]; then
-  function diff() {
-    git diff --no-index --color-words "$@"
-  }
-fi
 
 
 ####################
@@ -57,6 +53,14 @@ source $HOME/.git-completion.bash
 
 # NVM
 source $HOME/.nvm/nvm.sh
+
+# Use Git’s Colored Diff When Available
+hash git &>/dev/null
+if [ $? -eq 0 ]; then
+  function diff() {
+    git diff --no-index --color-words "$@"
+  }
+fi
 
 # Git Repo Status Information
 # https://github.com/magicmonty/bash-git-prompt
