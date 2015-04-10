@@ -49,10 +49,10 @@ alias ia="open $1 -a /Applications/iA\ Writer.app"
 
 # Git Branch Completion
 # https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-source $HOME/.git-completion.bash
+source $HOME/.git-completion.sh
 
 # npm Completion
-source $HOME/.npm-completion.bash
+source $HOME/.npm-completion.sh
 
 # NVM
 source $HOME/.nvm/nvm.sh
