@@ -17,7 +17,8 @@ echo "Symlinking dotfiles..."
 ln -s $PWD/.bash_profile ~/.bash_profile
 ln -s $PWD/.bashrc ~/.bashrc
 ln -s $PWD/.tmux.conf ~/.tmux.conf
-ln -s $PWD/.git-completion.bash ~/.git-completion.bash
+ln -s $PWD/.git-completion.bash ~/.git-completion.sh
+ln -s $PWD/.npm-completion.bash ~/.npm-completion.sh
 
 # echo "Reloading .bash_profile..."
 # source ~/.bash_profile

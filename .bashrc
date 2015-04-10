@@ -51,6 +51,9 @@ alias ia="open $1 -a /Applications/iA\ Writer.app"
 # https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 source $HOME/.git-completion.bash
 
+# npm Completion
+source $HOME/.npm-completion.bash
+
 # NVM
 source $HOME/.nvm/nvm.sh
 
