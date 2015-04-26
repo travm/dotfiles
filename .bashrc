@@ -57,6 +57,11 @@ source $HOME/.npm-completion.sh
 # NVM
 source $HOME/.nvm/nvm.sh
 
+# Extra/Unique Items
+# For example, Pebble SDK w/ custom location.
+# Create new file .extras in home directory.
+source $HOME/.extras
+
 # Use Git’s Colored Diff When Available
 hash git &>/dev/null
 if [ $? -eq 0 ]; then
