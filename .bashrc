@@ -8,6 +8,9 @@ echo "Welcome, $USER."
 # Add All Programs To Path
 export PATH=/usr/local/bin:$PATH
 
+# Enable 256 Colors
+export TERM=screen-256color
+
 # Save Command History To .bash_history File
 shopt -s histappend
 
