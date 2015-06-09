@@ -19,6 +19,7 @@ ln -s $PWD/.bashrc ~/.bashrc
 ln -s $PWD/.tmux.conf ~/.tmux.conf
 ln -s $PWD/.git-completion.sh ~/.git-completion.sh
 ln -s $PWD/.npm-completion.sh ~/.npm-completion.sh
+ln -s $PWD/.vimrc ~/.vimrc
 
 # echo "Reloading .bash_profile..."
 # source ~/.bash_profile
