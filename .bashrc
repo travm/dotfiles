@@ -34,16 +34,13 @@ alias ll='ls -al';
 
 # Show/Hide All Files
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES;
-killall Finder /System/Library/CoreServices/Finder.app'
+killall Finder /System/Library/CoreServices/Finder.app && echo "Dotfiles are now visible."'
 
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO;
-killall Finder /System/Library/CoreServices/Finder.app'
+killall Finder /System/Library/CoreServices/Finder.app && echo "Dotfiles are now hidden."'
 
 # Open In iA Writer
 alias ia="open $1 -a /Applications/iA\ Writer.app"
-
-# Resumator
-[ -f "$HOME/.res-vm-aliases" ] && source $HOME/.res-vm-aliases
 
 
 ####################
