@@ -55,7 +55,7 @@ source $HOME/.git-completion.sh
 source $HOME/.npm-completion.sh
 
 # NVM
-source $HOME/.nvm/nvm.sh
+source $(brew --prefix nvm)/nvm.sh
 
 # Extra/Unique Items
 # For example, Pebble SDK w/ custom location.

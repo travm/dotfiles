@@ -12,6 +12,8 @@
 
 echo "Installing git-bash-prompt..."
 brew install bash-git-prompt
+echo "Installing NVM..."
+brew install nvm
 
 echo "Symlinking dotfiles..."
 ln -s $PWD/.bash_profile ~/.bash_profile
