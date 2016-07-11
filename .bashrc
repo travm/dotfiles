@@ -55,7 +55,8 @@ source $HOME/.git-completion.sh
 source $HOME/.npm-completion.sh
 
 # NVM
-source $(brew --prefix nvm)/nvm.sh
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # Extra/Unique Items
 # For example, Pebble SDK w/ custom location.
