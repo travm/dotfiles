@@ -15,15 +15,15 @@ echo "Installing git-bash-prompt..."
 brew install bash-git-prompt
 
 echo "Installing NVM..."
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.2/install.sh | bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
 
 echo "Symlinking dotfiles..."
 ln -s $PWD/.bash_profile ~/.bash_profile
 ln -s $PWD/.bashrc ~/.bashrc
-ln -s $PWD/.tmux.conf ~/.tmux.conf
-ln -s $PWD/.git-completion.sh ~/.git-completion.sh
-ln -s $PWD/.npm-completion.sh ~/.npm-completion.sh
-ln -s $PWD/.vimrc ~/.vimrc
+ln -s $PWD/completions/.git-completion.sh ~/.git-completion.sh
+ln -s $PWD/completions/.npm-completion.sh ~/.npm-completion.sh
+ln -s $PWD/configs/.vimrc ~/.vimrc
+ln -s $PWD/configs/.tmux.conf ~/.tmux.conf
 
 echo "Creating empty .extras file..."
 touch ~/.extras
