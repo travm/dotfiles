@@ -15,7 +15,7 @@ echo "Installing git-bash-prompt..."
 brew install bash-git-prompt
 
 echo "Installing NVM..."
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 echo "Symlinking dotfiles..."
 ln -s $PWD/.bash_profile ~/.bash_profile
